@@ -8,6 +8,16 @@
 
 .main .letter {
    width: 15%;
+   animation-duration: 3s;
+   animation-name: slidein;
+}
+@keyframes slidein {
+   from {
+      margin: 50%;
+   }
+   to {
+      margin: 0;
+   }
 }
 
 .main .letter .row {
