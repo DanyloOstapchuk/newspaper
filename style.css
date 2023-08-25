@@ -1,43 +1,52 @@
-.main {
-   display: flex;
-   gap: 2%;
-   justify-content: space-between;
-   height: 98vh;
-   align-items: center;
+.wrapper {
+    display: flex;
+    padding: 20px;
+    
+
 }
 
-.main .letter {
-   width: 15%;
-   animation-duration: 3s;
-   animation-name: slidein;
-}
-@keyframes slidein {
-   from {
-      margin: 50%;
-   }
-   to {
-      margin: 0;
-   }
+.d {
+    text-align: justify;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    padding-left: 30px;
+    padding-right: 30px;
+    
 }
 
-.main .letter .row {
-   display: flex;
-   justify-content: center;
+.logo {
+    display: flex;
+    justify-content: center;
+    font-family: 'Rubik Beastly', cursive;
+    font-size: 48px;
+    
+
+}
+.image{
+width: 100%;
+}
+.underlogo{
+    display: flex;
+    justify-content: space-around;
+
+    text-transform: uppercase;
+    font-weight: bold;
+    border-top: 6px double black;
+        border-bottom: 9px double black;
+        
+        padding: 6px;
+        margin-bottom: 15px;
+}
+.bottom {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    border-top: 2px solid black;
 }
 
-.main .letter .row .cell {
-   width: 25%;
-   border: 1px solid transparent;
-   box-sizing: border-box;
-}
-
-.main .letter .row .cell:after {
-   content: '';
-   display: block;
-   padding-top: 100%;
-}
-
-.main .letter .row .cell.filled {
-   border-color: black;
-   background: rgb(88, 170, 6);
+.logo2{
+font-family: 'Rubik Beastly', cursive;
+    font-family: 'Sedgwick Ave Display', cursive;
 }
